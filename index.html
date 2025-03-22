@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style1.css">
+    <title>TYves.com</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <h3> Yves <span>TUMUKUNDE</span></h3>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                   <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home</a>
+                   </li>
+
+                   <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                   </li>
+
+                   <li class="nav__item">
+                    <a href="#experience" class="nav__link">Experience</a>
+                   </li>
+
+                   <li class="nav__item">
+                    <a href="#project" class="nav__link">Projects</a>
+                   </li>
+
+                   <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                   </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+         <section class="home section" id="home">
+           <div class="home__container container grid">
+             <div class="home__content">
+               <div class="home__data">
+                
+                  <h3 class="home__subtitle">
+                     Hello, <span>I'm</span>
+                  </h3>
+                  <h1 class="home__title">
+                      Yves TUMUKUNDE
+                  </h1>
+                  <h3 class="home__education">Fullstack Developer</h3>
+
+                  <p class="home__description">
+                    "I'm a Junior Full Stack Developer with a passion for building dynamic, user-friendly applications. 
+                    I have experience working with both front-end and back-end technologies"
+                  </p>
+
+                  <a href="#contact" class="button">Contact me</a>
+               </div>
+
+               <div class="home__social">
+                 <a href="https://github.com/dashboard" target="_blank" class="home__social-link">
+                    <i class="ri-github-fill"></i>
+                 </a>
+                 <a href="yvesss2021@gmail.com" target="_blank" class="home__social-link">
+                    <i class="ri-mail-fill"></i>
+                 </a>
+                 <a href="https://www.linkedin.com/in/yves-tumukunde-632baa238?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEP1FERyESdqMXrQKpnrH6w%3D%3D" target="_blank" class="home__social-link">
+                    <i class="ri-linkedin-box-line"></i>
+                 </a>
+               </div>
+
+             </div class="home__image">
+             <svg class="home__blob" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+              <polygon points="50,1 93,25 93,75 50,99 7,75 7,25" fill="var(--font-medium)" stroke="black" />
+              <!-- Add the image inside the hexagon -->
+              <defs>
+                <clipPath id="hexagon-clip">
+                  <polygon points="50,1 93,25 93,75 50,99 7,75 7,25" />
+                </clipPath>
+              </defs>
+              <image class="home__img" href="MEE.png"0" y="0" width="640" height="925" clip-path="url(#hexagon-clip)" />
+            </svg>
+            
+            <!--<div class="yves-container">
+                <img src="./MEE.jpg" alt="myImage">
+              </div> --> 
+      
+           </div>
+         </section>
+
+                                         <!--about-->
+
+         <section class="about section" id="about">
+           <div class="about__container container grid">
+               <div class="about__data">
+                   <h3 class="section__subtitle">
+                      My <span>Intro</span>
+                   </h3>
+
+                   <h2 class="section__title">
+                    About Me
+                   </h2>
+
+                   <p class="about__description">
+                    As a Full Stack Developer, I specialize in building and managing both the front-end and back-end of web applications.
+                     This means I handle everything from designing user interfaces and ensuring a seamless user experience (front-end), 
+                     to developing server-side logic, databases, and APIs (back-end)
+                   </p>
+
+                   <a href="#contact" class="button">Contact Me</a>
+               </div>
+
+               <div class="about__image">
+                <svg class="about__blob" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="200" height="200">
+                  <polygon points="50,1 93,25 93,75 50,99 7,75 7,25" fill="var(--font-medium)" stroke="black" />
+                  <!-- Add the image inside the hexagon -->
+                  <defs>
+                    <clipPath id="hexagon-clip">
+                      <polygon points="50,1 93,25 93,75 50,99 7,75 7,25" />
+                    </clipPath>
+                  </defs>
+                  <image class="home__img" id="imageBlob" href="MEE.png" x="0" y="0" width="640" height="925" clip-path="url(#hexagon-clip)" />
+                </svg>
+               </div>
+           </div>
+                             <!--skills-->
+           <section class="skills section" id="skills">
+              <div class="skills__container container grid">
+                <div class="skills__data">
+                   <h3 class="section__subtitle">
+                          Fav <span>Skills</span>
+                   </h3>
+
+                   <h2 class="section__title">
+                        My Skills
+                   </h2>
+
+                   <p class="skills__description">
+                    "Curious about my skills? Hit <span> 'see projects'</span> to find out!"
+                  </p>
+
+                    <a href="projects" class="button">see Projects</a>
+                   
+                </div>
+
+                <div class="skills__content">
+                   <ol class="skills__group">
+                       <li class="skills__item">HTML & CSS</li>
+                       <li class="skills__item">JavaScript</li>
+                       <li class="skills__item">Bootstrap</li>
+                       <li class="skills__item">React</li>
+                   </ol>
+
+                   <ol class="skills__group" start="5">
+                       <li class="skills__item">Node.js & Express.js</li>
+                       <li class="skills__item">Git & Github </li>
+                       <li class="skills__item">Databases:   PostgreSQL</li>
+                       
+                   </ol>
+                </div>
+              </div> 
+         </section>
+
+         </section>
+              
+              <!--Experience-->
+         <section class="experience section" id="experience">
+             <h3 class="section__subtitle">
+                   My <span>Experience</span>
+             </h3>
+
+             <h2 class="section__title">
+                  My Background
+             </h2>
+
+             <div class="experience__container container grid">
+               <div class="experience__card">
+                <i class="ri-layout-4-line experience__icon"></i>
+                <h2 class="experience__title">Junior tester</h2>
+                <h3 class="experience__subtitle">Ivy technology</h3>
+                <h4 class="experience__date">December 2023 - Present</h4>
+               
+               
+                  <ul>
+                    <li>Our team  test equipment and write scripts that test software in electronic products</li>
+                    <li>we perform operational testing to identify and isolate defects in equipment and systems</li>
+                    <li>we collect and analyze data and collaborate with engineers in order to make simple systems </li>
+                    <li>We engage in inspection and troubleshooting when equipment or products are malfunctioning</li>
+                  </ul>  
+               
+              </div>
+                
+                
+
+                     
+              
+             </div>
+         </section>
+                                   
+
+                           <!--projects-->
+        
+         <section class="projects section" id="projects">
+          <h3 class="section__subtitle">
+              My <span>Projects</span>
+          </h3>
+           
+          <h2 class="section__title">
+              Recent projects
+          </h2>
+
+          <div class="projects__container container grid">
+                <article class="projects__card">
+                  <img src="./To do List.jpg" alt="projects image" width="400" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__title">To do list app</span>
+                     <h2 class="projects__title">To do list app</h2>
+                     <a href="#" class="projects__button">
+                      view demo <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+                </article>
+
+                <article class="projects__card">
+                  <img src="./Music player.jpg" alt="projects image" width="400" height="600" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__title">Music player app</span>
+                     <h2 class="projects__title">Music player app</h2>
+                     <a href="#" class="projects__button">
+                      view demo <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+                </article>
+
+                <article class="projects__card">
+                  <img src="./Coming soon Website.jpg" alt="projects image" width="400" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__title">Comming soon website</span>
+                     <h2 class="projects__title">Comming soon website</h2>
+                     <a href="#" class="projects__button">
+                      view demo <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+                </article>
+
+                <article class="projects__card">
+                  <img src="./calculator app.jpg" alt="projects image" width="400" class="projects__img">
+
+                  <div class="projects__modal">
+                     <span class="projects__title">Calculator</span>
+                     <h2 class="projects__title">Calculator</h2>
+                     <a href="#" class="projects__button">
+                      view demo <i class="ri-external-link-line"></i>
+                     </a>
+                  </div>
+                </article>
+          </div>
+
+
+         </section>
+         
+         <!--Contact-->
+         <section class="contact section" id="contact">
+          <h3 class="section__subtitle">
+            Get in <span>Touch</span>
+          </h3>
+
+          <h2 class="section__title">
+            Contact Me
+          </h2>
+
+          <div class="contact__container container grid">
+            <form action="" class="contact__form" id="contact-form">
+              <div class="contact__group">
+                  <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
+                  <input type="email" name="user_email" required placeholder ="Enter your email" class="contact__input">
+              </div>
+
+              <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+
+              <p class="contact__message" id="contact-message"></p>
+
+              <button type="submit" class="button contact__button">
+                Send Message
+              </button>
+            </form>
+
+          </div>
+
+         </section>
+
+         <!--Footer-->
+         <footer>
+          <div class="footer__container container grid">
+            <div>
+              <h1 class="footer__title">
+                     Yves <span>T</span>
+              </h1>
+
+              <h2 class="footer__education">
+                   Fullstack Developer
+              </h2>
+            </div>
+
+             <div class="footer__social">
+                  <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-line"></i>
+                  </a>
+
+                  <a href="https://www.facebook.com" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-line"></i>
+                  </a>
+
+                  <a href="https://www.instagram.com" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                  </a>
+              </div>
+
+             <span class="footer-copy">
+                  &#169; created and designed by T.Yves. All rights reserved
+             </span>
+          </div>
+
+         </footer>
+
+         <!--scroll up-->
+
+         <a href="#" class="scrollup" id="scroll-up">
+          <i class="ri-arrow-up-line"></i>
+         </a>
+
+    </main>
+<!-- Start of HubSpot Embed Code -->
+<!--<script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/48254237.js"></script> -->
+<!-- End of HubSpot Embed Code -->
+    <script src="./scrollreveal.min.js"></script>
+  <!--Email js-->
+  <script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+  <!--Main js-->
+<script src="index.js"></script>
+</body>
+</html>
